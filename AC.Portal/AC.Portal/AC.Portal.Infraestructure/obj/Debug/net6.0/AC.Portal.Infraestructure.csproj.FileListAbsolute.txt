@@ -1,0 +1,17 @@
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\bin\Debug\net6.0\AC.Portal.Infraestructure.deps.json
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\bin\Debug\net6.0\AC.Portal.Infraestructure.dll
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\bin\Debug\net6.0\AC.Portal.Infraestructure.pdb
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\bin\Debug\net6.0\AC.Portal.Application.dll
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\bin\Debug\net6.0\AC.Portal.Domain.dll
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\bin\Debug\net6.0\AC.Portal.Application.pdb
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\bin\Debug\net6.0\AC.Portal.Domain.pdb
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.csproj.AssemblyReference.cache
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.AssemblyInfoInputs.cache
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.AssemblyInfo.cs
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.csproj.CopyComplete
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.dll
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\refint\AC.Portal.Infraestructure.dll
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\AC.Portal.Infraestructure.pdb
+C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Infraestructure\obj\Debug\net6.0\ref\AC.Portal.Infraestructure.dll

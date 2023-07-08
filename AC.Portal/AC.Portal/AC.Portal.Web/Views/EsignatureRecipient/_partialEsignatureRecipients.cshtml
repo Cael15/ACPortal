@@ -1,0 +1,59 @@
+﻿@model AC.Portal.Application.ViewModels.EsignatureRecipient.ModelContainerViewModel
+
+<section>
+    <h2>Quering EsignatureRecipient Table</h2>
+    <p>
+        Get esignature recipient based on EsignatureEnvelopeId.
+    </p>
+    <form asp-controller="EsignatureRecipient" asp-action="ReadEsignatureRecipient" method="post">
+        <div class="row mb-3">
+            <label asp-for="ReadTableEsignatureRecipient.EsignatureEnvelopeId" class="col-sm-3 col-form-label">Esignature Envelope ID</label>
+            <div class="col-sm-6">
+                <input asp-for="ReadTableEsignatureRecipient.EsignatureEnvelopeId" class="form-control" />
+            </div>
+            <div class="col-sm-3">
+                <input type="submit" value="Execute" class="btn btn-primary" />
+            </div>
+        </div>
+    </form>
+    <br />
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">EsignatureEnvelopeId</th>
+                <th scope="col">Name</th>
+                <th scope="col">ClientNumber</th>
+                <th scope="col">DocuSignRecipientId</th>
+                <th scope="col">SentDateTime</th>
+                <th scope="col">DeliveredDateTime</th>
+                <th scope="col">SignedDateTime</th>
+                <th scope="col">Status</th>
+                <th scope="col">IsDeleted</th>
+                <th scope="col">ModifiedBy</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.EsignatureRecipients != null && Model.EsignatureRecipients.Any())
+            {
+                @foreach (var recipient in Model.EsignatureRecipients)
+                {
+                    <tr>
+                        <td>@recipient.Id</td>
+                        <td>@recipient.EsignatureEnvelopeId</td>
+                        <td>@recipient.Name</td>
+                        <td>@(recipient.ClientNumber != null ? recipient.ClientNumber : "NULL")</td>
+                        <td>@(recipient.DocuSignRecipientId != null ? recipient.EsignatureEnvelopeId : "NULL")</td>
+                        <td>@(recipient.SentDateTime != null ? recipient.SentDateTime : "NULL")</td>
+                        <td>@(recipient.DeliveredDateTime != null ? recipient.DeliveredDateTime : "NULL")</td>
+                        <td>@(recipient.SignedDateTime != null ? recipient.SignedDateTime : "NULL")</td>
+                        <td>@(recipient.Status != null ? recipient.Status : "NULL")</td>
+                        <td>@recipient.IsDeleted</td>
+                        <td>@recipient.ModifiedBy</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</section>
+

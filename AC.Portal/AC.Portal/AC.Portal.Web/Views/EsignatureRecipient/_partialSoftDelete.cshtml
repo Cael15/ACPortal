@@ -1,0 +1,40 @@
+﻿@model AC.Portal.Application.ViewModels.EsignatureRecipient.ModelContainerViewModel
+
+<section>
+    <h3>Stored Procedure Parameters Form</h3>
+    <form asp-controller="EsignatureRecipient" asp-action="SoftDelete" method="post">
+        <div class="row mb-3">
+            <label asp-for="SoftDeleteEsignatureRecipient.ModifiedBy" class="col-sm-3 col-form-label">Modified By</label>
+            <div class="col-sm-9">
+                <input asp-for="SoftDeleteEsignatureRecipient.ModifiedBy" class="form-control" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label asp-for="SoftDeleteEsignatureRecipient.EnvelopeId" class="col-sm-3 col-form-label">Envelope ID</label>
+            <div class="col-sm-9">
+                <input asp-for="SoftDeleteEsignatureRecipient.EnvelopeId" class="form-control" />
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label asp-for="SoftDeleteEsignatureRecipient.RecipientId" class="col-sm-3 col-form-label">Recipient ID</label>
+            <div class="col-sm-9">
+                <input asp-for="SoftDeleteEsignatureRecipient.RecipientId" class="form-control" />
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Execute" class="btn btn-primary" />
+        </div>
+    </form>
+</section>
+<br />
+<section>
+    <h3>Stored Proceure Presentation</h3>
+    <p>
+        exec [dbo].[AC_Emergency_SoftDeleteEsignatureRecipient]
+        <label id="lblModifiedBy" style="font-weight: bold;">&#64;ModifiedBy</label> ,
+        <label id="lblEnvelopeID" style="font-weight: bold;">&#64;EnvelopeID</label> ,
+        <label id="lblRecipientID" style="font-weight: bold;">&#64;RecipientID</label>
+    </p>
+</section>
+

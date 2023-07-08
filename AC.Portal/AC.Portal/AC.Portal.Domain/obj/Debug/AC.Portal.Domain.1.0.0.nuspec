@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AC.Portal.Domain</id>
+    <version>1.0.0</version>
+    <authors>AC.Portal.Domain</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Proyectos\LegacyACSelfServicePortal\AC.Portal\AC.Portal\AC.Portal.Domain\bin\Debug\net6.0\AC.Portal.Domain.dll" target="lib\net6.0\AC.Portal.Domain.dll" />
+  </files>
+</package>

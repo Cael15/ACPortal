@@ -1,0 +1,68 @@
+﻿@model AC.Portal.Application.ViewModels.EsignatureRecipient.ModelContainerViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid">
+    <header>
+        <h1>Description about the issue</h1>
+        Clients and advisors should be able to e-sign their envelopes. For more information,
+        <a target="_blank" href="https://kestra.atlassian.net/wiki/spaces/NDTW/pages/7371161788/Client+can+t+sign+envelope+since+eSign+button+is+not+active">please visit this page</a>
+    </header>
+    <br />
+    <partial name="_partialEsignatureRecipients" />
+    <br />
+    <partial name="_partialSoftDelete" />
+    <br />
+    <section>
+        @if (ViewData["ErrorMessage"] != null)
+        {
+            <br />
+            <div class="alert alert-danger alert-dismissible d-flex align-items-center fade show">
+                <i class="bi-exclamation-octagon-fill"></i>
+                <strong class="mx-2">Error!</strong> @ViewData["ErrorMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+        @if (ViewData["ErrorSuccess"] != null)
+        {
+            <br />
+            <div class="alert alert-success alert-dismissible d-flex align-items-center fade show">
+                <i class="bi-check-circle-fill"></i>
+                <strong class="mx-2">Success!</strong> @ViewData["ErrorSuccess"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+    </section>
+    <br />
+
+    @Html.ActionLink("Return to Emergencies Runbook View", "Index", "Home", new { @class = "btn btn-primary" }, null)
+</div>
+
+@section Scripts
+    {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $(function () {
+            $('#SoftDeleteEsignatureRecipient_ModifiedBy').val('');
+            $('#SoftDeleteEsignatureRecipient_EnvelopeId').val('');
+            $('#SoftDeleteEsignatureRecipient_RecipientId').val('');
+
+            $('#SoftDeleteEsignatureRecipient_ModifiedBy').keyup(function () {
+                $('#lblModifiedBy').text($(this).val());
+            });
+
+            $('#SoftDeleteEsignatureRecipient_EnvelopeId').keyup(function () {
+                $('#lblEnvelopeID').text($(this).val());
+            });
+
+            $('#SoftDeleteEsignatureRecipient_RecipientId').keyup(function () {
+                $('#lblRecipientID').text($(this).val());
+            });
+        });
+    </script>
+}

@@ -1,0 +1,7 @@
+export class EsignatureRecipient{
+    id?: number;
+    EsignatureEnvelopeId?: number;
+    Name!: string;
+    ClientNumber?: number;
+    DocuSignRecipientId?: guid
+}

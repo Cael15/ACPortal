@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "KDfLaLggTRbaRt7/s7QrXxJYFgoJ2gL2pesfblC9pBsTB55J8Vqrk2DY9dUg2Psy1FAe/4awj1TWTBc5TAOR5w==",
+  "success": true,
+  "projectFilePath": "C:\\Proyectos\\LegacyACSelfServicePortal\\AC.Portal\\AC.Portal\\AC.Portal.Infraestructure\\AC.Portal.Infraestructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\djdel\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\djdel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\djdel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\djdel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\djdel\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\djdel\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\djdel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

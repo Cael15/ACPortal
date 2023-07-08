@@ -1,0 +1,31 @@
+<div class="text-center">
+  <h1 class="display-4">Emergencies Runbook</h1>
+  <table class="table">
+      <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">Legacy AC Emergency SQL scripts</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <th scope="row">1</th>
+              <td asp-action="EsignatureRecipient">
+                  @Html.ActionLink("Client can't sign envelope since “eSign” button is not active", "Index", "EsignatureRecipient", new { @class = "btn btn-primary" }, null)
+              </td>
+          </tr>
+          <tr>
+              <th scope="row">2</th>
+              <td asp-action="EsignatureRecipient">
+                  @Html.ActionLink("Envelope is not sending after creation for Proposal", "Index", "EsignatureEnvelope", new { @class = "btn btn-primary" }, null)
+              </td>
+          </tr>
+          <tr>
+              <th scope="row">3</th>
+              <td asp-action="EsignatureRecipient">
+                  @Html.ActionLink("Update Work Item Status", "Index", "WorkItem", new { @class = "btn btn-primary" }, null)
+              </td>
+          </tr>
+      </tbody>
+  </table>
+</div>
